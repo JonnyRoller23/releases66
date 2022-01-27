@@ -1,29 +1,29 @@
 #!/bin/bash
 
-export GITHUB_USER=""
-export GITHUB_EMAIL=""
+export GITHUB_USER="JonnyRoller23"
+export GITHUB_EMAIL="maxim55miui11@gmail.com"
 
-export device=""
+export device="olivelite"
 
-export ROM=""
-export ROM_DIR=""
-export ROM_VERSION=""
+export ROM="DotOS"
+export ROM_DIR="${WORKSPACE}/../dotos"
+export ROM_VERSION="11.0"
 export official="false"
-export local_manifest_url=""
-export manifest_url=""
-export rom_vendor_name=""
-export branch=""
+export local_manifest_url="https://raw.githubusercontent.com/JonnyRoller23/local-manifest/main/dot-11-olivelite.xml"
+export manifest_url="https://github.com/DotOS/manifest"
+export rom_vendor_name="dot"
+export branch="dot11"
 export bacon="bacon"
-export buildtype=""
-export clean=""
-export generate_incremental=""
-export upload_recovery=""
+export buildtype="userdebug"
+export clean="installclean"
+export generate_incremental="false"
+export upload_recovery="false"
 
-export ccache=""
-export ccache_size=""
+export ccache="true"
+export ccache_size="250"
 
-export jenkins="false"
+export jenkins="true"
 
-export release_repo=""
+export release_repo="JonnyRoller23/releases"
 
-export timezone="UTC"
+export timezone="MSK"
